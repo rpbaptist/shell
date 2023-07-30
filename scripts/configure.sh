@@ -24,10 +24,10 @@ set_keybindings() {
         return 0
     fi
 
-    left="h"
-    down="j"
-    up="k"
-    right="l"
+    left="n"
+    down="e"
+    up="u"
+    right="i"
 
     KEYS_GNOME_WM=/org/gnome/desktop/wm/keybindings
     KEYS_GNOME_SHELL=/org/gnome/shell/keybindings
@@ -80,17 +80,17 @@ set_keybindings() {
     dconf write ${KEYS_MUTTER}/toggle-tiled-right "@as []"
 
     # Toggle maximization state
-    dconf write ${KEYS_GNOME_WM}/toggle-maximized "['<Super>m']"
+    dconf write ${KEYS_GNOME_WM}/toggle-maximized "['']"
     # Lock screen
-    dconf write ${KEYS_MEDIA}/screensaver "['<Super>Escape']"
+    dconf write ${KEYS_MEDIA}/screensaver "['']"
     # Home folder
-    dconf write ${KEYS_MEDIA}/home "['<Super>f']"
+    dconf write ${KEYS_MEDIA}/home "['']"
     # Launch email client
-    dconf write ${KEYS_MEDIA}/email "['<Super>e']"
+    dconf write ${KEYS_MEDIA}/email "['']"
     # Launch web browser
-    dconf write ${KEYS_MEDIA}/www "['<Super>b']"
+    dconf write ${KEYS_MEDIA}/www "['']"
     # Launch terminal
-    dconf write ${KEYS_MEDIA}/terminal "['<Super>t']"
+    dconf write ${KEYS_MEDIA}/terminal "['']"
     # Rotate Video Lock
     dconf write ${KEYS_MEDIA}/rotate-video-lock-static "@as []"
 
