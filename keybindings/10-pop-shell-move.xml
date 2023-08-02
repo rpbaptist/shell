@@ -21,6 +21,10 @@
   <KeyListEntry name="tile-resize-right" description="Resize window larger"/>
   <KeyListEntry name="tile-resize-up" description="Resize window shorter"/>
   <KeyListEntry name="tile-resize-down" description="Resize window taller"/>
+  <KeyListEntry name="tile-resize-left-global" description="Resize window smaller outside of window management"/>
+  <KeyListEntry name="tile-resize-right-global" description="Resize window larger outside of window management"/>
+  <KeyListEntry name="tile-resize-up-global" description="Resize window shorter outside of window management"/>
+  <KeyListEntry name="tile-resize-down-global" description="Resize window taller outside of window management"/>
   <KeyListEntry name="tile-swap-down" description="Swap window down"/>
   <KeyListEntry name="tile-swap-left" description="Swap window left"/>
   <KeyListEntry name="tile-swap-right" description="Swap window right"/>
